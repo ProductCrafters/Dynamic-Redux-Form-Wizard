@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { FormSection, reduxForm } from 'redux-form'
 import { Row, Col } from 'react-bootstrap'
 

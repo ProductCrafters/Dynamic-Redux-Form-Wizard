@@ -1,8 +1,10 @@
 {
-  "name": "dynamic_redux_form_wizard",
+  "name": "Dynamic-Redux-Form-Wizard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://productcrafters.github.io/Dynamic-Redux-Form-Wizard",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
     "react-bootstrap": "^0.32.1",
@@ -15,6 +17,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
