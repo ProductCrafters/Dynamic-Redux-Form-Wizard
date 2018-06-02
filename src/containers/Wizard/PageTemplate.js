@@ -1,5 +1,6 @@
 import React from 'react'
 import { FormSection, reduxForm } from 'redux-form'
+import PropTypes from 'prop-types'
 import { Row, Col } from 'react-bootstrap'
 
 import FormGenerator from './FormGenerator'
